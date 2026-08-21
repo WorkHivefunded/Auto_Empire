@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
 import {
-  ArrowRight, Calendar, Car, CheckCircle2, Clock, GitCompare, Heart,
-  Phone, ShieldCheck, Sparkles, Star, ThumbsUp, Zap,
+  ArrowRight, Calendar, Car, GitCompare, Phone, ShieldCheck, Sparkles, Star, Zap,
 } from 'lucide-react';
 import { useApp } from '@/context/AppContext';
-import { BRANDS, CARS, CATEGORIES, HOME_REVIEWS, formatPrice, formatEmi } from '@/data';
+import { BRANDS, CARS, CATEGORIES, HOME_REVIEWS, formatPrice } from '@/data';
 import { CarCard } from '@/components/CarCard';
 import { SearchBar } from '@/components/SearchBar';
 import { SectionHeader } from '@/components/SectionHeader';
