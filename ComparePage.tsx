@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ArrowRight, GitCompare, Plus, X } from 'lucide-react';
+import { GitCompare, Plus, X } from 'lucide-react';
 import { useApp } from '@/context/AppContext';
 import { formatPrice, formatEmi } from '@/data';
 import { Button } from '@/components/ui/Button';
-import { Badge } from '@/components/ui/Badge';
 import { Modal } from '@/components/ui/Modal';
 import { useToast } from '@/components/ui/Toast';
 
