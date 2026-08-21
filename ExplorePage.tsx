@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { SlidersHorizontal, X, Search as SearchIcon, Car } from 'lucide-react';
+import { SlidersHorizontal, X, Car } from 'lucide-react';
 import { useApp } from '@/context/AppContext';
 import { BRANDS } from '@/data';
 import { FUEL_TYPES, TRANSMISSIONS, BODY_TYPES } from '@/types';
