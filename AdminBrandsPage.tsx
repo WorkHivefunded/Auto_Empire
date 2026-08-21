@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Car, Edit3, Plus, Trash2, X } from 'lucide-react';
+import { Car, Edit3, Plus, Trash2 } from 'lucide-react';
 import { BRANDS } from '@/data';
 import type { Brand } from '@/types';
 import { Button } from '@/components/ui/Button';
