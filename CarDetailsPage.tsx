@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react';
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import {
   ArrowLeft, Calendar, Check, ChevronLeft, ChevronRight, Fuel, Gauge,
-  GitCompare, Heart, Mail, Phone, Settings2, ShieldCheck, ThumbsDown,
-  ThumbsUp, Users, Package, Cog, Battery, Zap,
+  GitCompare, Heart, Mail, Settings2, ShieldCheck, ThumbsDown,
+  ThumbsUp, Users, Package, Cog, Zap,
 } from 'lucide-react';
 import { useApp } from '@/context/AppContext';
 import { formatPrice, formatEmi } from '@/data';
