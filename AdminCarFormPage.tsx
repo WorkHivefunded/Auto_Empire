@@ -7,7 +7,7 @@ import { FUEL_TYPES, TRANSMISSIONS, BODY_TYPES } from '@/types';
 import { Input, Select, Textarea } from '@/components/ui/Input';
 import { Button } from '@/components/ui/Button';
 import { useToast } from '@/components/ui/Toast';
-import type { BodyType, Car, CarColor, CarVariant, FuelType, Transmission } from '@/types';
+import type { BodyType, Car, FuelType, Transmission } from '@/types';
 
 const emptyCar: Car = {
   id: '',
